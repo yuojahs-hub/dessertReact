@@ -1,0 +1,75 @@
+#container {
+    width: 1160px;
+    margin: 0 auto;
+}
+.maincopy {
+    text-align: center;
+    padding-top: 124px;
+    padding-bottom: 33px;
+    line-height: 1.5;
+}
+.maincopy h1 {
+    font-size: 40px;
+}
+.maincopy h3 {
+    font-size: 20px;
+    color: #484848;
+}
+.hover_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.hover_wrap .hover {
+    position: relative;
+    overflow: hidden;
+}
+.hover_wrap .hover img {
+    height: 392px;
+    width: 570px;
+    display: block;
+}
+.hover:nth-child(1) .image_text {
+    position: absolute;
+    right: 0;
+    bottom: -180px;
+    background-color: rgba(118, 98, 67, 0.403);
+    padding: 20px;
+    transition: all 0.33s ease-in-out;
+}
+.hover:nth-child(2) .image_text {
+    position: absolute;
+    right: 0;
+    bottom: -180px;
+    background-color: rgba(197, 98, 138, 0.403);
+    padding: 20px;
+    transition: all 0.33s ease-in-out;
+}
+.hover:hover .image_text {
+    bottom: 0;
+}
+.hover figcaption {
+    color: #fff;
+}
+.hover figcaption h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.hover figcaption p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.hover .more {
+    font-size: 15px;
+}
+.hover:nth-child(1) .more ul li a {
+    color: #fdc8c8;
+    padding: 8px 20px;
+    border: 1px solid #634848;
+    background-color: #634848;
+}
+.hover:nth-child(2) .more ul li a {
+    color: #634848;
+    padding: 8px 20px;
+    border: 1px solid #fdc8c8;
+    background-color: #fdc8c8;
+}
